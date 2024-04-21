@@ -1,0 +1,146 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #000000;
+    color: #DFDFDF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    scrollbar-color: #FFF;
+    width: 12px;    
+}
+
+body::-webkit-scrollbar-track {
+    scrollbar-color: #FFF;    
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #515151;
+    border-radius: 16px;
+    border: 1px solid #FFFFFF05;
+}
+body::-webkit-scrollbar-button {
+    display: none;
+}
+
+footer {
+    background-color: #000000;
+    color: #F9F9F9;
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.logo-banner {
+    display: flex;
+    background: black url('../img/background_img.jpg') no-repeat fixed center;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.logomark {
+    background: url('../img/biglogo.png') no-repeat;
+    width: 30em;
+    height: 30rem;
+    color: #FFFFFF00;
+    margin-top: 15%;
+}
+
+.ur-services {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.services-list {
+    display: flex;
+    list-style: none;
+}
+
+.services-list-item {
+    margin: 0 1rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.card {
+    background-color: #a1a1a120;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #00000010;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.card-img {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.card-item {
+    margin: 0 1px;
+    padding: 0 1px;
+    list-style: none;
+}
+
+.quick-links {
+    display: flex;
+    align-items: center;
+}
+
+.menu-links {
+    margin: 20px;
+}
+
+.about-us {
+    margin: 1.5rem;
+    width: 30%;
+}
+
+.contact-whatsapp {
+    margin: 0.3em;
+}
+
+.fa-whatsapp {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: auto;
+}
+
+.button-whatsapp {
+    background-color: #00a76191;
+    border-color: #00b66a;
+    height: 42px;
+    width: 42px;
+    border-style: double;
+    border-radius: 50%;
+}
+
+.link-whatsapp {
+    font-size: 0px;
+    color: #FFFFFF00;
+}
+
+.contact {
+    margin: 1.5rem;
+    padding: 0 50px;
+}
